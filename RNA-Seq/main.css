@@ -27,7 +27,10 @@ body {
     margin-right: auto;
     border-radius: 6px;
     opacity: 0.95;
+    height: 315px;
 }
+
+span {}
 
 .loginUI .logImg {
     background-color: white;
@@ -67,6 +70,7 @@ input[type="password"] {
 
 input[type="submit"] {
     padding: 10px;
+    margin-top: 10px;
     color: #fff;
     background: #0098cb;
     width: 320px;
@@ -74,6 +78,7 @@ input[type="submit"] {
     margin-top: 0px;
     border: 0px;
     border-radius: 3px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -150,6 +155,14 @@ txt {
     margin-left: 800px;
     margin-top: -125px;
     width: 200px;
+}
+
+.cloudInfo {
+    width: 450px;
+    margin-left: 800px;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
 }
 
 .navDots {
