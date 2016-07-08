@@ -1,0 +1,154 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: LemonMilk;
+    src: url('LemonMilk.otf');
+}
+
+.nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav {
+    position: fixed;
+    width: 2000px;
+    background-color: white;
+    text-align: center;
+    height: 50px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav liQ {
+    display: inline;
+    margin-left: -500px;
+}
+
+.jumbotron .userPanel {
+    width: 200px;
+    height: 950px;
+    margin-left: -1703px;
+    margin-top: 2px;
+    background-color: #191919;
+}
+
+.userPanel .userBox {
+    background-color: #333333;
+    height: 300xpx;
+    width: 200px;
+}
+
+.userImg {
+    margin-top: 10px;
+    border-radius: 100px;
+}
+
+.name {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    background-color: #5d5d5d;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.sidebar {
+    height: 750px;
+    width: 160px;
+    margin-left: 35px;
+    margin-top: -480px;
+    text-decoration: none;
+}
+
+.sidebar p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 65px;
+    text-decoration: none;
+    height: 30px;
+    margin-top: -15px;
+    width: 200px;
+    margin-left: -38px
+}
+
+.sidebar p:hover {
+    background-color: #9a4a3b;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.iconSidebar {
+    width: 35px;
+    margin-left: -157px;
+    height: 500px;
+}
+
+.sbIcons {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background: #0098cb;
+    margin: 20px auto;
+    border: 0px;
+    border-radius: 3px;
+    margin-top: -50px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00b8eb;
+}
+
+#uploadCard {
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    margin-top: -890px;
+    display: none;
+    text-decoration: none;
+}
+
+#titleBar {
+    font-family: LemonMilk;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff5648;
+    padding: 8px;
+}
+
+.jumbotron {
+    background-image: url(Pages/lab.png);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.jumbotron .container {
+    position: relative;
+    color: #000000;
+    top: 90%;
+}
